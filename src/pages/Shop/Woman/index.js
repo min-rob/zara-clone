@@ -48,10 +48,10 @@ const Woman = () => {
                 style={{ paddingTop: navbarHeight }}
             >
                 <div
-                    className="category text-white flex flex-col justify-center items-center gap-4 pt-3 flex-wrap w-full"
+                    className="category text-white flex flex-col justify-center items-center gap-4 pt-3 px-28 flex-wrap w-full"
                     id="category"
                 >
-                    <ul className="category-list flex gap-3 mb-5">
+                    <ul className="category-list flex gap-3 mb-5 justify-start">
                         {categories.map((category) => {
                             const categoryNameFormatted = category.name.replace(
                                 /\s*\|\s*/g,
