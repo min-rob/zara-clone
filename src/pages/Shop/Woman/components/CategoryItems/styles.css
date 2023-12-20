@@ -1,0 +1,31 @@
+.category-item-list {
+    display: flex;
+}
+
+.category-items {
+    padding: 5px;
+    position: relative;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: border-color 0.3s ease, opacity 0.3s ease;
+}
+
+.category-items:hover {
+    border-color: white;
+    opacity: 1;
+}
+
+.category-items:not(.selected)::after {
+    display: none;
+}
+.category-items.selected {
+    border: 1px solid white;
+}
+
+.category-items.selected::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

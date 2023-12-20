@@ -1,0 +1,446 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Man",
+            "subcategories": [
+                {
+                    "id": 101,
+                    "name": "Coats"
+                },
+                {
+                    "id": 102,
+                    "name": "Jackets"
+                },
+                {
+                    "id": 103,
+                    "name": "Puffers"
+                },
+                {
+                    "id": 104,
+                    "name": "Leather"
+                },
+                {
+                    "id": 105,
+                    "name": "Sweaters"
+                },
+                {
+                    "id": 106,
+                    "name": "Pants"
+                },
+                {
+                    "id": 107,
+                    "name": "Jeans"
+                },
+                {
+                    "id": 108,
+                    "name": "Hoodies"
+                },
+                {
+                    "id": 109,
+                    "name": "Shirts"
+                },
+                {
+                    "id": 110,
+                    "name": "Overshirts"
+                },
+                {
+                    "id": 111,
+                    "name": "T-Shirts"
+                },
+                {
+                    "id": 112,
+                    "name": "Polo Shirts"
+                },
+                {
+                    "id": 113,
+                    "name": "Blazers"
+                },
+                {
+                    "id": 114,
+                    "name": "Suits"
+                },
+                {
+                    "id": 115,
+                    "name": "Vests"
+                },
+                {
+                    "id": 116,
+                    "name": "Tracksuits"
+                },
+                {
+                    "id": 117,
+                    "name": "Shoes"
+                },
+                {
+                    "id": 118,
+                    "name": "Bags"
+                },
+                {
+                    "id": 119,
+                    "name": "Perfumes"
+                },
+                {
+                    "id": 120,
+                    "name": "Accessories"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Woman",
+            "subcategories": [
+                {
+                    "id": 201,
+                    "name": "Coats",
+                    "inventory": [
+                        {
+                            "name": "Classic Trench Coat",
+                            "id": "201-01",
+                            "img_path": "201-01.jpg",
+                            "description": "Classic trench coat with belt and button closure.",
+                            "price": 89.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Wool Blend Coat",
+                            "id": "201-02",
+                            "img_path": "201-02.jpg",
+                            "description": "Warm wool blend coat with button closure.",
+                            "price": 129.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Faux Fur Coat",
+                            "id": "201-03",
+                            "img_path": "201-03.jpg",
+                            "description": "Soft faux fur coat with button closure.",
+                            "price": 99.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Puffer Coat",
+                            "id": "201-04",
+                            "img_path": "201-04.jpg",
+                            "description": "Warm puffer coat with zip closure.",
+                            "price": 79.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Pea Coat",
+                            "id": "201-05",
+                            "img_path": "201-05.jpg",
+                            "description": "Classic pea coat with button closure.",
+                            "price": 89.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Parka Coat",
+                            "id": "201-06",
+                            "img_path": "201-06.jpg",
+                            "description": "Warm parka coat with fur hood.",
+                            "price": 139.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Leather Jacket",
+                            "id": "201-07",
+                            "img_path": "201-07.jpg",
+                            "description": "Stylish leather jacket with zip closure.",
+                            "price": 149.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Denim Jacket",
+                            "id": "201-08",
+                            "img_path": "201-08.jpg",
+                            "description": "Classic denim jacket with button closure.",
+                            "price": 69.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Rain Coat",
+                            "id": "201-09",
+                            "img_path": "201-09.jpg",
+                            "description": "Waterproof rain coat with hood.",
+                            "price": 79.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Blazer",
+                            "id": "201-10",
+                            "img_path": "201-10.jpg",
+                            "description": "Formal blazer with button closure.",
+                            "price": 89.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Bomber Jacket",
+                            "id": "201-11",
+                            "img_path": "201-11.jpg",
+                            "description": "Casual bomber jacket with zip closure.",
+                            "price": 79.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Fleece Jacket",
+                            "id": "201-12",
+                            "img_path": "201-12.jpg",
+                            "description": "Warm fleece jacket with zip closure.",
+                            "price": 69.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Windbreaker",
+                            "id": "201-13",
+                            "img_path": "201-13.jpg",
+                            "description": "Lightweight windbreaker with zip closure.",
+                            "price": 59.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Motorcycle Jacket",
+                            "id": "201-14",
+                            "img_path": "201-14.jpg",
+                            "description": "Stylish motorcycle jacket with zip closure.",
+                            "price": 129.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Quilted Jacket",
+                            "id": "201-15",
+                            "img_path": "201-15.jpg",
+                            "description": "Warm quilted jacket with zip closure.",
+                            "price": 79.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        }
+                    ]
+                },
+                {
+                    "id": 202,
+                    "name": "Jackets"
+                },
+                {
+                    "id": 203,
+                    "name": "Puffers"
+                },
+                {
+                    "id": 204,
+                    "name": "Leather"
+                },
+                {
+                    "id": 205,
+                    "name": "Dresses | Jumpsuits"
+                },
+                {
+                    "id": 206,
+                    "name": "Pants"
+                },
+                {
+                    "id": 207,
+                    "name": "Jeans"
+                },
+                {
+                    "id": 208,
+                    "name": "Cardigans | Sweaters",
+                    "inventory": [
+                        {
+                            "name": "Funnel Neck Sweater",
+                            "id": 1,
+                            "img_path": "1.jpg",
+                            "description": "Sweater with high collar and long sleeves. Ribbed trim.",
+                            "price": 39.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "KNIT SWEATER WITH CONTRASTING TOPSTITCHING",
+                            "id": 2,
+                            "img_path": "2.jpg",
+                            "description": "V-neck sweater with long sleeves. Front patch pockets. Contrast topstitching.",
+                            "price": 69.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "CONTRAST TOPSTITCHING CROP KNIT SWEATER",
+                            "id": 3,
+                            "img_path": "3.jpg",
+                            "description": "V-neck cropped sweater with long sleeves. Front patch pockets. Contrast topstitching.",
+                            "price": 69.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Ribbed Turtleneck Sweater",
+                            "id": 4,
+                            "img_path": "4.jpg",
+                            "description": "Turtleneck sweater with ribbed design. Long sleeves.",
+                            "price": 49.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Cable Knit Cardigan",
+                            "id": 5,
+                            "img_path": "5.jpg",
+                            "description": "Button-up cable knit cardigan. V-neck. Ribbed cuffs.",
+                            "price": 59.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Chunky Knit Cardigan",
+                            "id": 6,
+                            "img_path": "6.jpg",
+                            "description": "Chunky knit open-front cardigan. Long sleeves. Front pockets.",
+                            "price": 79.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "V-Neck Knit Sweater",
+                            "id": 7,
+                            "img_path": "7.jpg",
+                            "description": "Classic V-neck sweater. Ribbed cuffs and hem.",
+                            "price": 44.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Hooded Cardigan",
+                            "id": 8,
+                            "img_path": "8.jpg",
+                            "description": "Hooded cardigan with front zipper closure. Drawstring hood.",
+                            "price": 69.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Textured Knit Sweater",
+                            "id": 9,
+                            "img_path": "9.jpg",
+                            "description": "Textured knit sweater with crew neck. Long sleeves.",
+                            "price": 54.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Striped Button-Up Cardigan",
+                            "id": 10,
+                            "img_path": "10.jpg",
+                            "description": "Striped button-up cardigan. V-neck. Ribbed trim.",
+                            "price": 49.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Cropped Cable Knit Sweater",
+                            "id": 11,
+                            "img_path": "11.jpg",
+                            "description": "Cropped cable knit sweater with crew neck. Long sleeves.",
+                            "price": 59.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Longline Open-Front Cardigan",
+                            "id": 12,
+                            "img_path": "12.jpg",
+                            "description": "Longline open-front cardigan. Side slits. Long sleeves.",
+                            "price": 74.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Mock Neck Sweater",
+                            "id": 13,
+                            "img_path": "13.jpg",
+                            "description": "Mock neck sweater with ribbed trim. Long sleeves.",
+                            "price": 49.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Hooded Sweater Vest",
+                            "id": 14,
+                            "img_path": "14.jpg",
+                            "description": "Hooded sweater vest with kangaroo pocket. Sleeveless.",
+                            "price": 39.9,
+                            "sizes": ["s", "m", "l", "xl"]
+                        },
+                        {
+                            "name": "Colorblock Knit Cardigan",
+                            "id": 15,
+                            "img_path": "15.jpg",
+                            "description": "Colorblock knit cardigan with button-up closure. V-neck.",
+                            "price": 64.9,
+                            "sizes": ["xs", "s", "m", "l", "xl"]
+                        }
+                    ]
+                },
+                {
+                    "id": 209,
+                    "name": "Shirts"
+                },
+                {
+                    "id": 210,
+                    "name": "Overshirts"
+                },
+                {
+                    "id": 211,
+                    "name": "T-Shirts"
+                },
+                {
+                    "id": 212,
+                    "name": "Polo Shirts"
+                },
+                {
+                    "id": 213,
+                    "name": "Blazers"
+                },
+                {
+                    "id": 214,
+                    "name": "Suits"
+                },
+                {
+                    "id": 215,
+                    "name": "Vests"
+                },
+                {
+                    "id": 216,
+                    "name": "Tracksuits"
+                },
+                {
+                    "id": 217,
+                    "name": "Shoes"
+                },
+                {
+                    "id": 218,
+                    "name": "Bags"
+                },
+                {
+                    "id": 219,
+                    "name": "Perfumes"
+                },
+                {
+                    "id": 220,
+                    "name": "Accessories"
+                },
+                {
+                    "id": 221,
+                    "name": "Beauty"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kids",
+            "subcategories": [
+                {
+                    "id": 301,
+                    "name": "1-6 years | girl"
+                },
+                {
+                    "id": 302,
+                    "name": "6-14 years | girl"
+                },
+                {
+                    "id": 303,
+                    "name": "1-6 years | boy"
+                },
+                {
+                    "id": 304,
+                    "name": "6-14 years | boy"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+li > a {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu-item-list {
+    display: flex;
+}
+.menu-items {
+    position: relative;
+    color: white;
+}
+.menu-items:not(.current)::after {
+    display: none;
+}
+
+.menu-items.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
