@@ -22,7 +22,6 @@ const MenuItem = (props) => {
                 className={`menu-items ${isActive ? "current" : ""}`}
             >
                 <Link to={link}>{item}</Link>
-                {/* {item} */}
             </a>
         </li>
     );

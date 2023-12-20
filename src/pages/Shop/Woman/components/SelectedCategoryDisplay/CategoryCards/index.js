@@ -14,8 +14,8 @@ const CategoryCards = (props) => {
     const { name, price, img } = props;
     const imgPath = "../../../img/sweaters/";
     return (
-        <Card size="2" variant="ghost">
-            <Flex gap="3" className="card-content flex-col">
+        <Card asChild size="1" variant="ghost">
+            <Flex gap="3" className="card-content flex-col" mx="5" my="2">
                 <img
                     src={img}
                     alt="product"
