@@ -13,6 +13,8 @@ import {
 } from "@radix-ui/themes";
 import CategoryCards from "./CategoryCards";
 import { useParams } from "react-router-dom";
+import FilterMenu from "./FilterMenu";
+import Searchbar from "./Searchbar";
 
 const SelectedCategoryDisplay = () => {
     const { id, categoryName } = useParams();
@@ -20,6 +22,9 @@ const SelectedCategoryDisplay = () => {
     // console.log("The useParams categoryName is =>", categoryName);
     let items = {};
     const [products, setProducts] = useState([]);
+    const [isDefault, setIsDefault] = useState(false);
+    const location = useLocation();
+    const path = location.pathname;
 
     useEffect(() => {
         const fetchData = async () => {
@@ -29,6 +34,12 @@ const SelectedCategoryDisplay = () => {
         fetchData();
     }, []);
 
+    useEffect(() => {
+        if (path === "/") {
+            setIsDefault(true);
+        }
+    }, []);
+    console.log(isDefault);
     // console.log("The products are =>", products);
     items =
         products.find((product) => product.id === parseFloat(id)) ||
@@ -37,43 +48,9 @@ const SelectedCategoryDisplay = () => {
 
     return (
         <Container className="category-container">
-            <Flex
-                className="filter-container"
-                justify="end"
-                px="6"
-                align="center"
-            >
-                <div className="filter-btn flex gap-1 p-1 mx-2 justify-center align-center">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="white"
-                        dataSlot="icon"
-                        className="w-5 h-5"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z"
-                        />
-                    </svg>
-                    <Text className="text-white">Filter</Text>
-                </div>
-                <div className="filter-options-container text-white">
-                    <ul className="filter-options flex gap-4">
-                        <li>
-                            <Text>Color</Text>
-                        </li>
-                        <li>
-                            <Text>Size</Text>
-                        </li>
-                        <li>
-                            <Text>Prize</Text>
-                        </li>
-                    </ul>
-                </div>
+            <Flex justify="between" className="px-12">
+                <Searchbar />
+                <FilterMenu />
             </Flex>
             <Flex
                 direction="row"

@@ -6,6 +6,9 @@ import SelectedCategoryDisplay from "./components/SelectedCategoryDisplay";
 import { fetchCategories } from "../../../utils/api/fetchCategories";
 import { Container } from "@radix-ui/themes";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useLocation, Navigate, useNavigate } from "react-router-dom";
+
+import FeaturedContent from "./components/FeaturedContent";
 
 const Woman = () => {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -48,7 +51,7 @@ const Woman = () => {
                 style={{ paddingTop: navbarHeight }}
             >
                 <div
-                    className="category text-white flex flex-col justify-center items-center gap-4 pt-3 px-28 flex-wrap w-full"
+                    className="category text-white flex flex-col justify-center items-center gap-4 pt-3 px-12 flex-wrap w-full"
                     id="category"
                 >
                     <ul className="category-list flex gap-3 mb-5 justify-start">
@@ -75,6 +78,7 @@ const Woman = () => {
                             path=":id/:categoryName"
                             element={<SelectedCategoryDisplay />}
                         />
+                        <Route path="/" element={<FeaturedContent />} />
                     </Routes>
                     {/* <SelectedCategoryDisplay id={categoryId} /> */}
                 </div>

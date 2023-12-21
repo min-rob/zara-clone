@@ -24,10 +24,10 @@ const CategoryCards = (props) => {
                     height={200}
                 />
 
-                <Text as="label" size="3" align="left" className="">
+                <Text as="label" size="1" align="left" className="">
                     {name}
                 </Text>
-                <Text as="p" size="2" align="left">
+                <Text as="p" size="1" align="left">
                     {price}
                 </Text>
             </Flex>
